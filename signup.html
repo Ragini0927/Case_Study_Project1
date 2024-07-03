@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="login.css" />
+    <style>
+      .navbar-custom {
+        background-color: #343a40;
+        padding: 1rem;
+      }
+      .navbar-custom .navbar-brand,
+      .navbar-custom .navbar-nav .nav-link {
+        color: #fff;
+      }
+      .footer-custom {
+        background-color: #343a40;
+        color: #fff;
+        padding: 1rem 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+      }
+      .footer-custom a {
+        color: #fff;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Amzone Clone</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          Sign Up Page
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h1>Sign Up</h1>
+      <form action="landingPage.html">
+        <div class="field">
+          <input type="text" required />
+          <span></span>
+          <label>Username</label>
+        </div>
+        <div class="field">
+          <input type="password" required />
+          <span></span>
+          <label>Password</label>
+        </div>
+        <input type="submit" value="Sign Up" />
+        <div class="signup">
+          Already a member? <a href="index.html">Login</a>
+        </div>
+      </form>
+    </div>
+
+    <footer class="footer-custom">
+      <div class="container">
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">Privacy</a></li>
+          <li class="list-inline-item"><a href="#">Terms</a></li>
+          <li class="list-inline-item"><a href="#">Support</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+  </body>
+</html>

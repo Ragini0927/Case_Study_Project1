@@ -131,3 +131,19 @@ today_deal_btn_nextEl.addEventListener("click", () => {
     
     
 })
+function redirectToLogin() {
+    // Simulate a logout process (clear tokens, session, etc.)
+    // Here you can clear localStorage or sessionStorage if used
+    localStorage.removeItem('authToken');
+    sessionStorage.removeItem('authToken');
+    
+    // Redirect to the login page
+    window.location.href = 'login.html';
+}
+
+// Simulate clearing user session on load (for example purposes)
+document.addEventListener("DOMContentLoaded", function() {
+    localStorage.removeItem('authToken');
+    sessionStorage.removeItem('authToken');
+});
+

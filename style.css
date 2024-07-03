@@ -1,14 +1,11 @@
-* {
-    box-sizing: border-box;
-}
-
+* 
 body {
     margin: 0;
 }
 .header {
-    background-color: rgb(19, 25, 33);
+    background-color: rgb(225, 226, 228);
     height: 60px;
-    color: white;
+    color: rgb(22, 22, 22);
 }
 /* layout**/
 .container {
@@ -38,17 +35,11 @@ body {
 .logo {
     width: 120px;
     height: 50px;
-    background: url('https://m.media-amazon.com/images/G/31/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405936311_.png');
-    background-repeat: no-repeat;
-    background-position-y: -40px;
+    background: url('shopping-online.jpg') no-repeat center center;
+    background-size: cover;
     overflow: hidden;
 }
 
-.dotin {
-    position: relative;
-    margin-left: -13px;
-    margin-top: -10px;
-}
 
 .border-white {
     padding: 5px;
@@ -76,7 +67,7 @@ body {
 .hello {
     font-size: 0.8rem;
     padding-left: 20px;
-    color: #ccc;
+    color: #0e0404;
 }
 
 .icon-location {
@@ -97,7 +88,7 @@ body {
 }
 
 .search-container:hover {
-    outline: 3px solid orange;
+    outline: 3px solid hsl(0, 100%, 50%);
 }
 
 .search-select {
@@ -117,7 +108,7 @@ body {
 
 .search-icon {
     width: 50px;
-    background-color: rgb(235, 160, 94);
+    background-color: hsl(0, 87%, 60%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -549,3 +540,4 @@ body {
     outline: none;
     background-color: rgb(255,255,255,0.4);
 }
+
