@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap");
 * {
   margin: 0;
@@ -112,56 +111,3 @@ input[type="submit"]:hover {
 .signup a:hover {
   text-decoration: underline;
 }
-=======
-.divider:after,
-.divider:before {
-  content: "";
-  flex: 1;
-  height: 1px;
-  background: #eee;
-}
-.h-custom {
-  height: calc(100% - 73px);
-}
-@media (max-width: 450px) {
-  .h-custom {
-    height: 100%;
-  }
-}
-
-.form-outline {
-  position: relative;
-  margin-bottom: 1.5rem;
-}
-.form-outline .form-label {
-  position: absolute;
-  top: 50%;
-  left: 0.75rem;
-  transform: translateY(-50%);
-  color: #757575;
-  pointer-events: none;
-  transition: 0.2s ease all;
-}
-.form-outline input:focus ~ .form-label,
-.form-outline input:not(:placeholder-shown) ~ .form-label {
-  top: -0.75rem;
-  left: 0.75rem;
-  color: #2691d9;
-  font-size: 1rem;
-  background-color: #fff;
-  padding: 0 0.25rem;
-}
-.form-outline input {
-  width: 100%;
-  padding: 0.75rem 0.75rem;
-  height: auto;
-  font-size: 4rem;
-  border: 4px solid #ccc;
-  border-radius: 0.25rem;
-  outline: none;
-  transition: border-color 0.2s ease;
-}
-.form-outline input:focus {
-  border-color: #2691d9;
-}
->>>>>>> 7755bca63ea69b83e2c69b9a38629f95d813771a
