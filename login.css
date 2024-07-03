@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap");
 * {
   margin: 0;
@@ -112,7 +112,6 @@ input[type="submit"]:hover {
 .signup a:hover {
   text-decoration: underline;
 }
-=======
 .divider:after,
 .divider:before {
   content: "";
@@ -164,4 +163,4 @@ input[type="submit"]:hover {
 .form-outline input:focus {
   border-color: #2691d9;
 }
->>>>>>> 7755bca63ea69b83e2c69b9a38629f95d813771a
+
